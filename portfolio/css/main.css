@@ -208,7 +208,8 @@ li a {
 
 .hhimg {
     max-height: 30rem;
-    width: auto;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .about-text h1 , .about-text h2, .project-name h1{
@@ -612,7 +613,6 @@ p.after-quote {
     }
     
 }
-
 
 @media only screen and (min-width: 600px) {
 
