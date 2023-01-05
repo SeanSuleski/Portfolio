@@ -50,7 +50,7 @@ h4 {
 
 img {
     width: 100%;
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
 }
 
 .logo {
@@ -217,6 +217,10 @@ li a {
     justify-content: center;
 }
 
+.project-name h1 {
+    font-size: 2.5rem;
+}
+
 .project-name {
     padding-top: 5rem;
 }
@@ -285,7 +289,13 @@ li a {
 .container-resume {
     max-width: 1320px;
     margin: 0 auto;
-    padding: 1rem 2.5rem;
+    padding: 3rem 2.5rem 1rem 2.5rem;
+}
+
+.resumeimg {
+    max-width: 50rem;
+    display: block;
+    margin: auto;
 }
 
 .resume-printout {
@@ -342,7 +352,7 @@ p.after-quote {
 }
 
 .result-card {
-    background-color: #ed8d7233;
+    background-color: #ed8d721b;
     padding: 2rem 2rem 3rem 2rem;
     border-radius: 1rem;
 }
@@ -481,7 +491,7 @@ p.after-quote {
     top: 0;
     bottom: 0;
     width: 100%;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
 }
 
 .overlay-content {
@@ -681,7 +691,7 @@ p.after-quote {
         display: block;
         position: absolute;
         width: 22.25rem;
-        border-radius: 0 0 .5rem .5rem;
+        /* border-radius: 0 0 .5rem .5rem; */
         /*border-radius: 0.5rem 0.5rem .5rem .5rem;*/
         margin: .7rem 0 0 3rem;
     }
@@ -748,11 +758,16 @@ p.after-quote {
     }
 
     .project-name {
-        padding: 8rem 0 0 0;
+        padding: 6rem 0 0 0;
+    }
+
+    .project-name h1 {
+        font-size: 4rem;
     }
 
     .cold-war-results {
         padding-top: 6rem;
+        margin-bottom: -4rem;
     }
 
     .overlay h4 {
