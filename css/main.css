@@ -26,6 +26,11 @@ a {
     color: white;
 }
 
+.page-link {
+    color:#2988BC;
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 2rem;
     color: #ED8C72;
